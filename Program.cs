@@ -59,3 +59,21 @@ void OrderPrecedence()
     int h = (e + f) / g;
     Console.WriteLine(h);
 }
+
+
+{// additional quotient/remainder example
+int aa = 7;
+int bb = 4;
+int cc = 3;
+int dquot = (aa + bb) / cc;
+int dremainder = (aa + bb) % cc;
+Console.WriteLine($"quotient: {dquot}");
+Console.WriteLine($"remainder: {dremainder}");
+
+int max = int.MaxValue;
+int min = int.MinValue;
+Console.WriteLine($"The range of integers is {min} to {max}");
+
+int what = max + 3;
+Console.WriteLine($"An example of overflow: {what}");
+}
