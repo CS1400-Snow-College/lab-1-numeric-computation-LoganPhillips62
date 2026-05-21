@@ -107,3 +107,13 @@ Console.WriteLine($"The range of double is {min} to {max}");
     double third = 1.0 / 3.0;
     Console.WriteLine(third);
 }
+
+{
+    double da3 = 1.0;
+double db3 = 3.0;
+Console.WriteLine(da3 / db3);
+
+decimal decC = 1.0M;
+decimal decD = 3.0M;
+Console.WriteLine(decC / decD);
+}
