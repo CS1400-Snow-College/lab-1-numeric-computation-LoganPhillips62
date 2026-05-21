@@ -77,3 +77,33 @@ Console.WriteLine($"The range of integers is {min} to {max}");
 int what = max + 3;
 Console.WriteLine($"An example of overflow: {what}");
 }
+
+
+{// double examples
+
+double da = 5;
+double db = 4;
+double dc = 2;
+double d = (da + db) / dc;
+Console.WriteLine(d);  
+}
+
+
+{// double examples with more precision
+double a2 = 19;
+double b2 = 23;
+double c2 = 8;
+double d2 = (a2 + b2) / c2;
+Console.WriteLine(d2);
+}
+
+{
+   double max = double.MaxValue;
+double min = double.MinValue;
+Console.WriteLine($"The range of double is {min} to {max}"); 
+}
+
+{
+    double third = 1.0 / 3.0;
+    Console.WriteLine(third);
+}
